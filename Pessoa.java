@@ -1,7 +1,16 @@
+import java.util.ArrayList;
+
 public class Pessoa {
 
     protected String nome;
     protected String CPF;
+
+    public static void adiciona(Pessoa p) {
+    }
+
+    public static ArrayList<Pessoa> listarPessoa() {
+        return null;
+    }
 
 
     public String getNome() {

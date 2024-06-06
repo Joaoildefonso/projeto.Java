@@ -1,27 +1,28 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class ServicoDAO {
 
 
-    private List<Servico> servico;
+    private List<Servico> Servico;
 
     public ServicoDAO(){
-        this.servicos = new ArrayList<>();
+        this.Servico = new ArrayList<>();
     }
 
 
     public boolean removerServico(Servico servico) {
-        return servico.remove(servico);
+        return Servico.remove(servico);
     }
 
 
-    public List<Servico> obterTodosServicos() {
-        return new  ArrayList<>(servico);
+    public List<Servico> obterTodosServico() {
+        return new  ArrayList<>(Servico);
     }
 
 
     public Servico buscarPorNome(String nomeServico) {
-        for (Servico servico : servicos) {
+        for (Servico servico : Servico) {
             if (servico.getNomeServico().equals(nomeServico)) {
                 return servico;
             }

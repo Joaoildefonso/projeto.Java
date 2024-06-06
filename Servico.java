@@ -1,6 +1,5 @@
 public class Servico {
 
-    public class Servico {
 
 
         private String nomeServico;
@@ -29,10 +28,10 @@ public class Servico {
             this.preco = preco;
         }
 
-        
+
         public void descrever() {
             System.out.println("Serviço: " + nomeServico + " - Preço: R$" + preco);
         }
     }
 
-}
+
