@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args) {
 
-        int servico = 30;
+        int servico = 4;
 
 
         Connection conexao = null;
