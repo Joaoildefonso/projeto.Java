@@ -4,6 +4,16 @@ public class Pessoa {
 
     protected String nome;
     protected String CPF;
+    protected String email;
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+
 
     public static void adiciona(Pessoa p) {
     }

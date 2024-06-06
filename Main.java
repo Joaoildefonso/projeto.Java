@@ -10,6 +10,8 @@ public class Main {
         switch (servico){
             case 1:
                 System.out.println("Cadastrar ");
+                
+
                 break;
             case 2:
                 System.out.println("Efetuar login");
