@@ -5,6 +5,16 @@ public class Pessoa {
     protected String nome;
     protected String CPF;
     protected String email;
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", CPF='" + CPF + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+
+
     public String getEmail() {
         return email;
     }
